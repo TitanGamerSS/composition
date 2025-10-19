@@ -1,0 +1,49 @@
+.composition {
+    background-image: url("https://learn.algoritmika.org/uploads/student/70322463/68f49b681b90c.jpg");
+    width: 600px;
+    height: 400px;
+}
+
+.planet1 {
+    position: relative;
+    left: 100px;
+    top: 125px;
+    z-index: 2;
+}
+
+.planet2 {
+    position: relative;
+    right: 325px;
+    z-index: 1;
+}
+
+.planet3 {
+    position: relative;
+    right: 90px;
+    bottom: 120px;
+}
+
+.superman {
+    position: relative;
+    left: 500px;
+    top: 84px;
+}
+
+.ufo {
+    position: relative;
+    z-index: 3;
+    top: 10px;
+}
+
+.asteroid {
+    position: relative;
+    left: 230px;
+    bottom: 170px;
+}
+
+.spaceship {
+    position: relative;
+    z-index: 1;
+    bottom: 130px;
+    right: 50px;
+}
